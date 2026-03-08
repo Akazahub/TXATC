@@ -16,5 +16,5 @@ async def on_message(message):
     if message.content == "!ping":
         await message.channel.send("Pong!")
 
-TOKEN = os.getenv("TOKEN")
+TOKEN = os.getenv("MTQ2NDM1OTIwNzM2ODI2MTg2Ng.GwZmJq.hk8eBkqPoUCrqVG0_zMkOKsgAVp_48RksSjoWk")
 client.run(TOKEN)
