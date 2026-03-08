@@ -17,4 +17,4 @@ async def on_message(message):
         await message.channel.send("Pong!")
 
 TOKEN = os.getenv("TOKEN")
-client.run(TOKEN)
+client.run("TOKEN")
